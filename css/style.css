@@ -379,7 +379,17 @@ li {
 /*****************/
 .plans .card {
 	padding: 20px;
+	border-radius: 0;
 	border: 2px solid white;
+}
+
+.plans .card:hover {
+	border: 10px solid;
+	transform: scale(1.01);
+	border-image-slice: 1;
+	border-width: 2px;
+	border-image-source: var(--gradient);
+	box-shadow: 5px 5px 0px 0px #0ee951;
 }
 
 

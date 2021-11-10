@@ -55,6 +55,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">Sobre Juan</a>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#services">Servicios</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
@@ -69,16 +70,27 @@
                             <li><a class="dropdown-item" href="seo_tecnico.html">SEO Técnico</a></li>
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="accesibilidad_web.html">Accesibilidad Web</a></li>
-                        </ul>
+                  			</ul>
                     </li>
+
                     <li class="nav-item"> 
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#plans">Plans</a>
+
+                    <li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#plans">Planes SEO</a>
+											<ul class="dropdown-menu" aria-labelledby="dropdown01">
+												<li><a class="dropdown-item" href="plan-seo-basico.html">Plan Básico</a></li>
+												<li><div class="dropdown-divider"></div></li>
+												<li><a class="dropdown-item" href="plan-seo-negocios.html">Plan Negocios</a></li>
+												<li><div class="dropdown-divider"></div></li>
+												<li><a class="dropdown-item" href="plan-seo-premium.html">Plan Premium</a></li>
+											</ul>
                     </li>
+										
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
+												<ul class="dropdown-menu" aria-labelledby="dropdown01"></ul>
                         
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <li><a class="dropdown-item" href="article.html">Article Details</a></li>
@@ -138,7 +150,7 @@
                 <p>Accesibilidad Web</p>  
             </div>
             <div class="my-3">
-                <a class="btn" href="#plans">Conoce mis Planes</a>
+                <a class="btn" href="#contacto">Contáctame</a>
             </div>
         </div> <!-- end of container -->
     </section> <!-- end of home -->
@@ -179,7 +191,7 @@
                     <p class="py-2 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed accusantium aut dolores inventore architecto modi cupiditate eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum voluptatum quisquam ad veritatis dolorem.</p>
 
                     <div class="my-3">
-                        <a class="btn" href="about.html">Conoce más</a>
+                        <a class="btn" href="about.html" target="_blank">Conoce más sobre mí</a>
                     </div>
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
@@ -316,16 +328,16 @@
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </div>
-                        <h4 class="py-3">$250/Month</h4>
+                        <h4 class="py-3">$0.00/Month</h4>
                         <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
+                            <a class="btn" href="#your-link">Más Detalles</a>
                         </div>
                     </div>  
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card bg-transparent px-4">
-                        <h4 class="py-2">PAQUETE NEGOCIOS</h4>
+                  <div class="card bg-transparent px-4">
+                        <h4 class="py-2">PLAN NEGOCIOS</h4>
                         <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
@@ -343,11 +355,11 @@
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </div>
-                        <h4 class="py-3">$350/Month</h4>
+                        <h4 class="py-3">$0.00/Month</h4>
                         <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
+                            <a class="btn" href="#your-link">Más Detalles</a>
                         </div>
-                    </div>  
+                    </div>    
                 </div>
 
                 <div class="col-lg-4">
@@ -370,12 +382,13 @@
                             <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </div>
-                        <h4 class="py-3">$450/Month</h4>
+                        <h4 class="py-3">$0.00/Month</h4>
                         <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>                    
+                            <a class="btn" href="#your-link">Más Detalles</a>                    
                         </div>
                     </div>  
                 </div>
+
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </section> <!-- end of plans -->
@@ -529,12 +542,12 @@
         </div> <!-- end of container -->
     </div> <!-- end of testimonials -->
 
-        <!-- Contacto y Location -->
-    <section class="location text-light py-5">
+    <!-- Contacto y Location -->
+    <section class="location text-light py-5" id="contacto">
 			<div class="text-center text-lg-start py-4 pt-lg-0">
 				<div class="container">
 					<p>CONTACTO</p>
-					<h2 class="py-2">Envíame tu consulta</h2>
+					<h2 ref="#plans" class="py-2">Envíame tu consulta</h2>
 					<p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
 				</div>   
 			</div>
