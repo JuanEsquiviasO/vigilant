@@ -33,95 +33,117 @@
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
-        <div class="container">
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+		<div class="container">
+			<!-- Image Logo -->
+			<!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
 
-            <!-- Image Logo -->
-            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+			<!-- Text Logo - Use this if you don't have a graphic logo -->
+			<a class="navbar-brand logo-text" href="index.html">JE</a>
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <a class="navbar-brand logo-text" href="index.html">JE</a>
+			<button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+			<div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+				<ul class="navbar-nav ms-auto navbar-nav-scroll">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+					</li>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Sobre Juan</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Servicios</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="auditoria_seo.html">Auditoría SEO</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="keyword_research.html">Keyword Research</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="seo_on_page.html">SEO On Page</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="seo_off_page.html">SEO Off Page</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="seo_tecnico.html">SEO Técnico</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="accesibilidad_web.html">Accesibilidad Web</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#plans">Plans</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
-                        
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
-                    </li>
-                </ul>
-                <span class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-github-alt fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-										<span class="fa-stack">
-											<a href="#your-link">
-													<i class="fas fa-circle fa-stack-2x"></i>
-													<i class="fab fa-linkedin fa-stack-1x"></i>
-											</a>
-										</span>
-										<span class="fa-stack">
-											<a href="#your-link">
-													<i class="fas fa-circle fa-stack-2x"></i>
-													<i class="fab fa-whatsapp fa-stack-1x"></i>
-											</a>
-										</span>
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">Sobre Juan</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#services">Servicios</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+							<li><a class="dropdown-item" href="auditoria-seo.html">Auditoría SEO</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="keyword-research.html">Keyword Research</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-on-page.html">SEO On Page</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-off-page.html">SEO Off Page</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-tecnico.html">SEO Técnico</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="accesibilidad-web.html">Accesibilidad Web</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-ecommerce.html">SEO E-commerce</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-local.html">SEO Local</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-estrategia.html">Estrategia SEO</a></li>
+							<li><div class="dropdown-divider"></div></li>
+						</ul>
+					</li>
+
+					<li class="nav-item"> 
+						<a class="nav-link" href="https://juanesquiviaso.github.io/blog/">Blog</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Planes SEO</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+							<li><a class="dropdown-item" href="plan-seo-basico.html">Plan SEO Básico</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="plan-seo-negocios.html">Plan SEO Negocios</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="plan-seo-premium.html">Plan SEO Premium</a></li>
+							<li><div class="dropdown-divider"></div></li>
+						</ul>
+					</li>
+					
+					<!-- <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01"></ul>
+						
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+							<li><a class="dropdown-item" href="article.html">Article Details</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+						</ul>
+					</li> -->
+
+					<li class="nav-item">
+						<a class="nav-link" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+				<span class="nav-item social-icons">
+				<span class="fa-stack">
+					<a href="https://github.com/JuanEsquiviasO" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-github-alt fa-stack-1x"></i>
+					</a>
+				</span>
+				<span class="fa-stack">
+					<a href="https://twitter.com/JuanEsquiviasO" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-twitter fa-stack-1x"></i>
+					</a>
+			  </span>
+				<span class="fa-stack">
+					<a href="https://pe.linkedin.com/in/juanesquivias" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-linkedin fa-stack-1x"></i>
+					</a>
+				</span>
+				<span class="fa-stack">
+					<a href="https://api.whatsapp.com/send?phone=51975142790&text=Hola%20%C2%BFC%C3%B3mo%20te%20ayudo?" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-whatsapp fa-stack-1x"></i>
+					</a>
+				</span>
+				</span>
+			</div> <!-- end of navbar-collapse -->
+
+		</div> <!-- end of container -->
+	</nav> <!-- end of navbar -->
+  <!-- end of navigation -->
 
 
     <!-- Header -->
