@@ -66,7 +66,7 @@ li {
 .home,
 .about,
 .services,
-.plans,
+.clients,
 .work,
 .contact {
 	/* height: 110vh; */
@@ -75,6 +75,7 @@ li {
 
 .services,
 .work,
+.clients,
 .contact,
 .testimonial,
 .footer {
@@ -736,35 +737,40 @@ li {
 	text-align: center;
 } */
 
+
+
 /* Clients Section
 --------------------------------*/
-/* #clients {
+#clients {
 	padding: 60px 0;
-  }
-  #clients img {
+}
+#clients img {
 	opacity: 0.5;
 	transition: 0.3s;
-  }
-  #clients img:hover {
+}
+#clients img:hover {
 	opacity: 1;
-  }
-  #clients .swiper-pagination {
+}
+#clients .swiper-pagination {
 	margin-top: 30px;
 	position: relative;
-  }
-  #clients .swiper-pagination .swiper-pagination-bullet {
+}
+#clients .swiper-pagination .swiper-pagination-bullet {
 	width: 12px;
 	height: 12px;
 	background-color: #fff;
 	opacity: 1;
 	border: 1px solid #18d26e;
-  }
-  #clients .swiper-pagination .swiper-pagination-bullet-active {
+}
+#clients .swiper-pagination .swiper-pagination-bullet-active {
 	background-color: #18d26e;
- } */
+}
+
 
  /* Section with background
 --------------------------------*/
+
+
 .section-bg {
   background: #f7f7f7;
 }
