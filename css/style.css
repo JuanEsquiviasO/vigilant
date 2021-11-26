@@ -23,6 +23,7 @@ Table Of Contents:
 :root {
 	--primary: #1c262f;
 	--primary-light: #212d37;
+	--primary-shadow: #414C56;
 	--secondary: #0ee951;
 	--tertiary: #00dabf;
 	--gradient: linear-gradient(to right, #0ee951, #00dabf);
@@ -286,7 +287,7 @@ li {
 }
 
 .information .container-fluid .row div:last-child {
-  	background-color: white;
+  	background-color: var(--primary-shadow);
 }
 
 .information .container-fluid .row div:nth-child(2) {

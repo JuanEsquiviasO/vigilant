@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Acerca de Juan Esquivias</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./css/aos.min.css" rel="stylesheet">
+    <link href="./css/swiper.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.png">
+</head>
+<body>
+
+	<!-- Navigation -->
+	<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+		<div class="container">
+			<!-- Image Logo -->
+			<a class="navbar-brand logo-image" href="index.html"><img src="assets/images/logo-min.svg" alt="alternative"></a>
+
+			<!-- Text Logo - Use this if you don't have a graphic logo -->
+			<!-- <a class="navbar-brand logo-text" href="index.html">JE</a> -->
+
+			<button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+				<ul class="navbar-nav ms-auto navbar-nav-scroll">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">Sobre Juan</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#services">Servicios</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+							<li><a class="dropdown-item" href="auditoria-seo.html">Auditoría SEO</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="keyword-research.html">Keyword Research</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-on-page.html">SEO On Page</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-off-page.html">SEO Off Page</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-tecnico.html">SEO Técnico</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="accesibilidad-web.html">Accesibilidad Web</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-ecommerce.html">SEO E-commerce</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-local.html">SEO Local</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="seo-estrategia.html">Estrategia SEO</a></li>
+							<li><div class="dropdown-divider"></div></li>
+						</ul>
+					</li>
+
+					<li class="nav-item"> 
+						<a class="nav-link" href="https://juanesquiviaso.github.io/blog/">Blog</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#plans">Planes SEO</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+							<li><a class="dropdown-item" href="plan-seo-basico.html">Plan SEO Básico</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="plan-seo-negocios.html">Plan SEO Negocios</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="plan-seo-premium.html">Plan SEO Premium</a></li>
+							<li><div class="dropdown-divider"></div></li>
+						</ul>
+					</li>
+					
+					<!-- <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown01"></ul>
+						
+						<ul class="dropdown-menu" aria-labelledby="dropdown01">
+							<li><a class="dropdown-item" href="article.html">Article Details</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+							<li><div class="dropdown-divider"></div></li>
+							<li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+						</ul>
+					</li> -->
+
+					<li class="nav-item">
+						<a class="nav-link" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+				<span class="nav-item social-icons">
+				<span class="fa-stack">
+					<a href="https://github.com/JuanEsquiviasO" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-github-alt fa-stack-1x"></i>
+					</a>
+				</span>
+				<span class="fa-stack">
+					<a href="https://twitter.com/JuanEsquiviasO" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-twitter fa-stack-1x"></i>
+					</a>
+			  </span>
+				<span class="fa-stack">
+					<a href="https://pe.linkedin.com/in/juanesquivias" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-linkedin fa-stack-1x"></i>
+					</a>
+				</span>
+				<span class="fa-stack">
+					<a href="https://api.whatsapp.com/send?phone=51975142790&text=Hola%20%C2%BFC%C3%B3mo%20te%20ayudo?" target="_blank">
+						<i class="fas fa-circle fa-stack-2x"></i>
+						<i class="fab fa-whatsapp fa-stack-1x"></i>
+					</a>
+				</span>
+				</span>
+			</div> <!-- end of navbar-collapse -->
+
+		</div> <!-- end of container -->
+	</nav> <!-- end of navbar -->
+  	<!-- end of navigation --> 
+
+
+	<!-- Header -->
+	<header class="ex-header">
+			<div class="container">
+					<div class="row">
+							<div class="col-xl-10 offset-xl-1">
+									<h1>Portfolio</h1>
+							</div> <!-- end of col -->
+					</div> <!-- end of row -->
+			</div> <!-- end of container -->
+	</header> <!-- end of ex-header -->
+	<!-- end of header -->
+
+
+	<!-- Basic -->
+	<div class="ex-basic-1 pt-5 pb-5">
+			<div class="container text-center">
+					<div class="row">
+							<div class="col-lg-12">
+									<img class="img-fluid mt-5 mb-3" src="assets/images/article-details-large.jpg" alt="alternative">
+							</div> <!-- end of col -->
+					</div> <!-- end of row -->
+			</div> <!-- end of container -->
+	</div> <!-- end of ex-basic-1 -->
+	<!-- end of basic -->
+
+
+	<!-- Basic -->
+	<div class="ex-basic-1 pt-4">
+			<div class="container">
+					<div class="row">
+							<div class="col-xl-10 offset-xl-1">
+									<p>Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Last sentence of words thus better.</p>
+									<p class="py-2">Ye on properly handsome returned throwing am no whatever. In without wishing he of picture no exposed talking minutes. Curiosity continual belonging offending so explained it exquisite. Do remember to followed yourself material mr recurred carriage. Way mrs end gave fat skin brown yesterday tall walk fact bed.</p>
+
+									<h2 class="my-3">Advantages of working with this package</h2>
+									<p class="py-2">High drew west we no or at john. About or given on witty event. Or sociable up material bachelor bringing landlord confined. Busy so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so. Ye on properly handsome returned throwing am no whatever.</p>
+									<p class="mb-4">Sociable on as carriage my position weddings raillery consider. Peculiar trifling absolute and wandered vicinity property yet. The and collecting motionless difficulty son. His hearing staying ten colonel met. Word drew six easy four dear cold deny. Fulfilled direction use continual set him propriety continued. Saw met applauded favourite deficient.</p>
+							</div> <!-- end of col -->
+					</div> <!-- end of row -->
+			</div> <!-- end of container -->
+	</div> <!-- end of ex-basic-1 -->
+	<!-- end of basic -->
+
+
+	<!-- Cards -->
+	<div class="ex-cards-1 pt-3 pb-3 ">
+			<div class="container">
+					<div class="row col-xl-10 offset-xl-1" >
+									<!-- Card -->
+									<div class="card col-lg-4">
+											<ul class="list-unstyled">
+													<li class="d-flex">
+															<span class="fa-stack">
+																	<span class="fas fa-circle fa-stack-2x"></span>
+																	<span class="fa-stack-1x">1</span>
+															</span>
+															<div class="flex-grow-1">
+																	<h5>High Quality Service</h5>
+																	<p>Features include an eye catching morphtext in the header, details lightbox for more details information</p>
+															</div>
+													</li>
+											</ul>
+									</div> <!-- end of card -->
+									<!-- end of card -->
+									
+									<!-- Card -->
+									<div class="card col-lg-4">
+											<ul class="list-unstyled">
+													<li class="d-flex">
+															<span class="fa-stack">
+																	<span class="fas fa-circle fa-stack-2x"></span>
+																	<span class="fa-stack-1x">2</span>
+															</span>
+															<div class="flex-grow-1">
+																	<h5>Prompt Timely Delivery</h5>
+																	<p>Statistics numbers for important values, card slider for testimonials, image slider for customer logos</p>
+															</div>
+													</li>
+											</ul>
+									</div> <!-- end of card -->
+									<!-- end of card -->
+									
+									<!-- Card -->
+									<div class="card col-lg-4">
+											<ul class="list-unstyled">
+													<li class="d-flex">
+															<span class="fa-stack">
+																	<span class="fas fa-circle fa-stack-2x"></span>
+																	<span class="fa-stack-1x">2</span>
+															</span>
+															<div class="flex-grow-1">
+																	<h5>Skilled Team Involved</h5>
+																	<p>Some useful extra pages are bundled with the template lik article details, terms conditions and privacy policy</p>
+															</div>
+													</li>
+											</ul>
+									</div> <!-- end of card -->
+									<!-- end of card -->
+					</div> <!-- end of row -->   
+			</div> <!-- end of container -->   
+	</div> <!-- end of ex-cards-1 -->
+	<!-- end of cards -->
+
+
+	<!-- Basic -->
+	<div class="ex-basic-1 pt-3 pb-5">
+			<div class="container">
+					<div class="row">
+							<div class="col-xl-10 offset-xl-1">
+									<p class="mb-5">Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Last sentence of words thus better.</p>
+									
+									<h2 class="mb-4">New elements added to the package</h2>
+									<img class="img-fluid mb-5" src="assets/images/article-details-small.jpg" alt="alternative">
+									<p class="py-3">Ye on properly handsome returned throwing am no whatever. In without wishing he of picture no exposed talking minutes. Curiosity continual belonging offending so explained it exquisite. Do remember to followed yourself material mr recurred carriage. Way mrs end gave fat skin brown yesterday tall walk fact bed.</p>
+									<p class="py-3">High drew west we no or at john. About or given on witty event. Or sociable up material bachelor bringing landlord confined. Busy so many in hung easy find well up. So of exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so. Ye on properly handsome returned throwing am no whatever.</p>
+									<div class="text-box mb-5 p-4">
+											<h3>Visitors love a beautiful and efficient website</h3>
+											<p>Bringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire ously arranging frankne its the did figure wonder off.</p>
+									</div> <!-- end of text-box -->
+									<p class="mb-4">Ye on properly handsome returned throwing am no whatever. In without wishing he of picture no exposed talking minutes. Curiosity continual belonging offending so explained it exquisite. Do remember to followed yourself material mr recurred carriage. Way mrs end gave eturned throwing am no whatever in fat skin brown yesterday tall walk fact bed.</p>
+									<ul class="list-unstyled li-space-lg mb-5">
+											<li class="d-flex py-2">
+													<i class="fas fa-square"></i>
+													<div class="flex-grow-1"><strong>Card slider</strong> for testimonials, statistics numbers for important values image slider for logos</div>
+											</li>
+											<li class="d-flex py-2">
+													<i class="fas fa-square"></i>
+													<div class="flex-grow-1"><strong>Dropdown navigation</strong> and useful extra pages for article details, terms conditions and privacy policy</div>
+											</li>
+											<li class="d-flex py-2">
+													<i class="fas fa-square"></i>
+													<div class="flex-grow-1"><strong>Clean light design</strong> mixing purple, orange and gray hues with one color backgrounds to maximize</div>
+											</li>
+											<li class="d-flex py-2">
+													<i class="fas fa-square"></i>
+													<div class="flex-grow-1"><strong>Together with</strong> touches of call to action green, the overall landing page design will showcase your app</div>
+											</li>
+											<li class="d-flex py-2">
+													<i class="fas fa-square"></i>
+													<div class="flex-grow-1"><strong>This template</strong> is built with HTML, CSS and Bootstrap to ensure the highest flexibility for all users</div>
+											</li>
+									</ul>
+																
+									<a class="btn btn-tertiary" href="index.html#contact">Contáctame</a>
+
+							</div> <!-- end of col -->
+					</div> <!-- end of row -->
+			</div> <!-- end of container -->
+	</div> <!-- end of ex-basic-1 -->
+	<!-- end of basic -->
+
+
+	<!-- ======= Portafolio  ======= -->
+	<section class="work d-flex align-items-center py-5 portfolio" id="portfolio">
+		<div class="container text-light">
+
+      <div class="section-title text-center pb-4">
+        <h2 class="py-2">Portfolio</h2>
+        <p class="para-light">Mis Trabajos</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">Todo</li>
+            <li data-filter=".filter-app">SEO</li>
+            <li data-filter=".filter-card">Diseño</li>
+            <li data-filter=".filter-web">Web</li>
+						<li data-filter=".filter-web">Social Media</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-17.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>ToysMaster</h4>
+              <p>Auditoría SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Unión"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-toysmaster.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-16.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Seminarium</h4>
+              <p>Diseño - Social Media</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Seminarium"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-seminarium.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-15.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Unión</h4>
+              <p>Auditoría SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Unión"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-union.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-14.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Peru Marketplace</h4>
+              <p>Auditoría SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Peru Marketplace"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-peru-marketplace.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-13.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Leasein</h4>
+              <p>Auditoría SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Leasein"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-leasein.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Su & Mendoza</h4>
+              <p>Auditoría SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Su & Mendoza"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-su-mendoza.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>TumiSoft</h4>
+              <p>Auditoría SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TumiSoft"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-tumisoft.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Espacio Accesible</h4>
+              <p>Auditoría SEO - Accesibilidad Web</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="IDA"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-espacio-accesible.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-0.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Nuevo Futuro</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-0.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nuevo Futuro"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-nuevo-futuro.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Kambista</h4>
+              <p>SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kambista"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-kambista.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Telepizza</h4>
+              <p>Diseño - Social Media</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Telepizza"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-tpz.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>IDA</h4>
+              <p>SEO</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="IDA"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-ida.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Grupo Fundades</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Grupo Fundades"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-fundades.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>IED</h4>
+              <p>Diseño - Social Media</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="IED"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-ied.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Blog Perú Accesible</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Blog Perú Accesible"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-peru-accesible.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Kinegeriatrics</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kinegeriatrics"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-kinegeriatrics.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Infodis Perú</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Infodis"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-infodis-peru.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/images/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Dunkin'</h4>
+              <p>Diseño - Social Media</p>
+              <div class="portfolio-links">
+                <a href="assets/images/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dunkin' Donuts"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-dunkin.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+		</div>
+    
+  </section><!-- End Portfolio Section -->
+
+  
+
+	<!-- Contacto y Location -->
+	<section class="location text-light py-5" id="contacto">
+		<div class="text-center text-lg-start py-4 pt-lg-0">
+			<div class="container">
+				<p>CONTACTO</p>
+				<h2 ref="#plans" class="py-2">Envíame tu consulta</h2>
+				<p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
+			</div>   
+		</div>
+		<div class="container" data-aos="zoom-in">
+			<div class="row">
+				<!-- <div class="col-lg-3 d-flex align-items-center">
+					<div class="p-2"><i class="far fa-map fa-3x"></i></div>
+					<div class="ms-2">
+						<h6>DIRECCIÓN</h6>
+						<p>Lima 15039, Perú</p>
+					</div>
+				</div> -->
+				<div class="col-lg-3 d-flex align-items-center" >
+					<div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
+					<div class="ms-2">
+						<h6>LLAMA PARA CONSULTAS</h6>
+						<p>(051) 975  142 790</p>
+					</div>
+				</div>
+				<div class="col-lg-3 d-flex align-items-center" >
+					<div class="p-2"><i class="fab fa-whatsapp fa-3x"></i></div>
+					<div class="ms-2">
+						<h6>CONTACTO WHATSAPP</h6>
+						<p>(051) 975  142 790</p>
+					</div>
+				</div>
+				<div class="col-lg-3 d-flex align-items-center" >
+					<div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
+					<div class="ms-2">
+						<h6>ENVÍAME UN MENSAJE</h6>
+						<p>jc@juanesquivias.com</p>
+					</div>
+				</div>
+				<div class="col-lg-3 d-flex align-items-center" >
+					<div class="p-2"><i class="far fa-clock fa-3x"></i></div>
+					<div class="ms-2">
+						<h6>HORARIO DE ATENCIÓN</h6>
+						<p>09:00 AM - 18:00 PM</p>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of location -->
+
+
+	<!-- Footer -->
+	<section class="footer text-light">
+			<div class="container">
+					<div class="row" data-aos="fade-right">
+							<div class="col-lg-3 py-4 py-md-5">
+									<div class="d-flex align-items-center">
+											<h4 class="">JC</h4>
+									</div>
+									<p class="py-3 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi repudiandae explicabo esse maxime, impedit rem voluptatibus amet error quas.</p>
+									<div class="d-flex">
+											<div class="me-3">
+													<a href="#your-link">
+															<i class="fab fa-github-alt fa-2x py-2"></i>
+													</a>
+											</div>
+											<div class="me-3">
+													<a href="#your-link">
+															<i class="fab fa-twitter fa-2x py-2"></i>
+													</a>
+											</div>
+											<div class="me-3">
+													<a href="#your-link">
+															<i class="fab fa-linkedin fa-2x py-2"></i>
+													</a>
+											</div>
+											<div class="me-3">
+													<a href="#your-link">
+															<i class="fab fa-whatsapp fa-2x py-2"></i>
+													</a>
+											</div>
+									</div>
+							</div> <!-- end of col -->
+
+							<div class="col-lg-3 py-4 py-md-5">
+									<div>
+											<h4 class="py-2">Enlaces rápidos</h4>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#about"><p class="ms-3">Sobre Juan</p></a>
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#"><p class="ms-3">Servicios</p></a>
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#"><p class="ms-3">Blog</p></a>
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#"><p class="ms-3">Plans</p></a>
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#"><p class="ms-3">Contacto</p></a>
+											</div>
+									</div>
+							</div> <!-- end of col -->
+
+							<div class="col-lg-3 py-4 py-md-5">
+									<div>
+											<h4 class="py-2">Enlaces útiles</h4>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="privacy.html"><p class="ms-3">Privacidad</p></a>
+													
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="terms.html"><p class="ms-3">Términos y Condiciones</p></a>
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#your-link"><p class="ms-3">Descargo de responsabilidad</p></a>
+											</div>
+											<div class="d-flex align-items-center py-2">
+													<i class="fas fa-caret-right"></i>
+													<a href="#your-link"><p class="ms-3">FAQ</p></a>
+											</div>
+									</div>
+							</div> <!-- end of col -->
+
+							<div class="col-lg-3 py-4 py-md-5">
+									<div class="d-flex align-items-center">
+											<h4>Newsletter</h4>
+									</div>
+									<p class="py-3 para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ab.</p>
+									<div class="d-flex align-items-center">
+											<div class="input-group mb-3">
+													<input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
+													<button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
+											</div>
+									</div>
+							</div> <!-- end of col -->
+					</div> <!-- end of row -->
+			</div> <!-- end of container -->
+	</section> <!-- end of footer -->
+
+
+	<!-- Bottom -->
+	<div class="bottom py-2 text-light" >
+			<div class="container d-flex justify-content-between">
+					<div>
+							<p>Copyright © 2021 - Juan Esquivias Otazu</p><br>
+							<!-- <p>Distributed by: <a href="https://themewagon.com/">Themewagon</a></p> -->
+					</div>
+					<div>
+							<!-- <i class="fab fa-cc-visa fa-lg p-1"></i>
+							<i class="fab fa-cc-mastercard fa-lg p-1"></i>
+							<i class="fab fa-cc-paypal fa-lg p-1"></i>
+							<i class="fab fa-cc-amazon-pay fa-lg p-1"></i> -->
+					</div>
+			</div> <!-- end of container -->
+	</div> <!-- end of bottom -->
+
+	
+	<!-- Back To Top Button -->
+	<button onclick="topFunction()" id="myBtn">
+			<img src="assets/images/up-arrow.png" alt="alternative">
+	</button>
+	<!-- end of back to top button -->
+
+	
+	<!-- Scripts -->
+	<script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+	<script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+	<script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+	<script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
+	<script src="./js/script.js"></script>  <!-- Custom scripts -->  			
+</body>
+</html>
