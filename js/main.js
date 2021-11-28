@@ -58,17 +58,17 @@
    */
   on('click', '#navbar .nav-link', function(e) {
     let section = select(this.hash)
-    if (section) {
-      e.preventDefault()
+    	if (section) {
+      	e.preventDefault()
 
-      let navbar = select('#navbar')
-      let header = select('#header')
-      let sections = select('section', true)
-      let navlinks = select('#navbar .nav-link', true)
+				let navbar = select('#navbar')
+				let header = select('#header')
+				let sections = select('section', true)
+				let navlinks = select('#navbar .nav-link', true)
 
-      navlinks.forEach((item) => {
-        item.classList.remove('active')
-      })
+				navlinks.forEach((item) => {
+					item.classList.remove('active')
+			})
 
       this.classList.add('active')
 
