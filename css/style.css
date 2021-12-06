@@ -1,4 +1,4 @@
-/* Description: Master CSS file */
+/* Description: Mskillster CSS file */
 
 /*****************************************
 Table Of Contents:
@@ -38,12 +38,14 @@ h4,
 h5,
 h6 {
 	font-family: "Poppins", sans-serif;
+	padding: 2px 0 20px;
 }
 
 h1 {
 	font-size: 60px;
 	font-weight: 500;
 }
+
 
 button {
 	font-family: sans-serif;
@@ -97,6 +99,10 @@ li {
 .bottom {
   	background-color: black;
 }
+
+.ilum {
+	color: #ffffff;
+ }
 
 /* Gradient Border And Background On Icons */
 .home_text,
@@ -1064,7 +1070,7 @@ li {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: black
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
@@ -1388,7 +1394,9 @@ section .container-box {
 	color: white;
 }
 
-
+.fst-italic {
+	margin-bottom: 20px;
+}
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -1422,6 +1430,10 @@ section .container-box {
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
+.section-title {
+	padding: 18px;
+}
+
 .interests .icon-box {
   display: flex;
   align-items: center;
@@ -1517,13 +1529,27 @@ section .container-box {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+.sinfo {
+	color: black;
+	font-weight: bolder;
+}
+
+.resume .resume-title p {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
+
+.resume .resume-title h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -1572,6 +1598,10 @@ section .container-box {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills-content {
+	padding: 6px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
